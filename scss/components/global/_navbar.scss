@@ -1,0 +1,21 @@
+.navbar {
+  background-color:$red;
+  color: $black;
+
+  ul {
+    li {
+      &.nav-item{
+        color: $white;
+        font-weight: bold;
+      }
+
+      &.item {
+        font-size: 1.2rem;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
